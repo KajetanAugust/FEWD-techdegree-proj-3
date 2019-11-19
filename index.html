@@ -4,19 +4,99 @@
         <meta charset="utf-8">
         <title>The Code Review</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
-
+            <h1>THE CODE REVIEW</h1>
+            <H2>Signup for our newsletter</H2>
+            <p>Get the last news on how your code is doing in your inbox</p>
         </header>
+
         <main>
-    
-    
+            
+            <form action="http://example.com" method="post">
+
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email Adress</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone-number">
+                    </div>
+
+                    <div>
+                        <label for="street">Street Address</label>
+                        <input type="text" id="street" name="street">
+                    </div>
+
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+
+                    <div>
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state">
+                    </div>
+
+                    <div>
+                        <label for="zip">Zip Code</label>
+                        <input type="text" id="zip" name="zip">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Newsletter</legend>
+
+                    <h4>Select the newsletters you would like to recive</h4>
+
+                    <input type="radio" id="html-news" name="drone" value="html-news">
+                    <label for="html-news">HTML News</label>
+                    <br>
+                    <input type="radio" id="css-news" name="drone" value="css-news">
+                    <label for="css-news">CSS News</label>
+                    <br>
+                    <input type="radio" id="js-news" name="drone" value="js-news">
+                    <label for="js-news">Javascript News</label>
+
+                    <h4>Newsletter format</h4>
+
+                    <input type="radio" id="html-name" name="drone" value="html-name">
+                    <label for="html-name">HTML</label>
+                    <br>
+                    <input type="radio" id="plain" name="drone" value="plain-text">
+                    <label for="plain">Plain text</label>
+
+                    <div>
+                        <label for="state">Other topics you'd like to hear about</label>
+                        <br>
+                        <textarea type="text" id="state" name="state"> </textarea>
+                    </div>
+
+                </fieldset>
+            
+                <button class="signup"
+                    type="submit">
+                Sign Up
+                </button>
+            </form>
+
         </main>
     
         <footer>
-    
+            Copyright 2019 The Code Review
         </footer>
     </body>
 
