@@ -82,6 +82,7 @@ form    {
     margin:10px auto 15px auto;
 }
 
+/* PLACEHOLDERS STYLING */
 
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     text-align: right;
