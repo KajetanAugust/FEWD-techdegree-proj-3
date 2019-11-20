@@ -10,11 +10,14 @@
     <body>
         <header>
             <h1>THE CODE REVIEW</h1>
-            <H2>Signup for our newsletter</H2>
-            <p>Get the last news on how your code is doing in your inbox</p>
         </header>
 
         <main>
+
+            <section class="subheader">
+                    <H2>Signup for our newsletter</H2>
+                    <p>Get the last news on how your code is doing in your inbox</p>
+            </section>
             
             <form action="http://example.com" method="post">
 
@@ -23,12 +26,12 @@
 
                     <div>
                         <label for="full-name">Full Name</label><br>
-                        <input type="text" id="full-name" name="full-name">
+                        <input type="text" id="full-name" name="full-name" placeholder="Required">
                     </div>
 
                     <div>
                         <label for="email">Email Adress</label><br>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" placeholder="Required">
                     </div>
 
                     <div>
@@ -49,7 +52,7 @@
                     <div>
                         <label for="state">State</label><br>
                         <select id="state" name="state">
-                            <option value="">--Choose a state--</option>
+                            <option value="">Choose a state</option>
                             <option value="alabama">Alabama</option>
                             <option value="alaska">Alaska</option>
                             <option value="arizona">Arizona</option>
