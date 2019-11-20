@@ -23,6 +23,7 @@ body   {
 
 header  {
     background: rgb(34, 43, 53, .95);
+    height: 75px;
 }
 
 h1  {
@@ -36,7 +37,7 @@ h1  {
     font-size: 1.5em;
     height: 50px;
     padding-top: 25px;
-    /* padding-bottom: 25px; */
+    padding-bottom: 25px;
    
 }
 
@@ -97,7 +98,7 @@ label   {
 legend  {
     font-weight: bold;
     font-size: 1.2em;
-    margin-bottom:15px;
+    margin-bottom:auto;
     color: rgb(34, 43, 53, .95);
 }
 
