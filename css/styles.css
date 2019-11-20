@@ -11,6 +11,7 @@ body   {
 }
 
 .subheader  {
+    margin-top: 30px;
     border-bottom: black solid 3px;
     margin-bottom: 5px;
     max-width: 95%;
@@ -20,19 +21,22 @@ body   {
     color:rgb(34, 43, 53, .95);
 }
 
+header  {
+    background: rgb(34, 43, 53, .95);
+}
+
 h1  {
     text-align: center;
     max-width: 100%;
     display: block;
-    background: rgb(34, 43, 53, .95);
+    
     color: white;
     margin-top: auto;
     width: 100%;
     font-size: 1.5em;
     height: 50px;
     padding-top: 25px;
-    padding-bottom: 25px;
-
+    /* padding-bottom: 25px; */
    
 }
 
@@ -80,7 +84,6 @@ select  {
     background-color: rgb(235, 236, 238, 0.8);
     padding-left: 10px;
     color: rgb(152, 157, 162);
-    appearance: menulist-button;
     margin:10px auto 15px auto;
 
 }
