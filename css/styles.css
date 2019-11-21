@@ -82,6 +82,12 @@ form    {
     margin:10px auto 15px auto;
 }
 
+#zip    {
+    display: block;
+    max-width: 50%;
+    margin-left: 0;
+}
+
 /* PLACEHOLDERS STYLING */
 
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -156,6 +162,8 @@ legend  {
      width: 100%;
      height: 100px;
      resize: none;
+     color:rgb(103, 117, 132);
+     padding:5px;
  }
 
 button  {
@@ -173,6 +181,9 @@ button  {
 
 footer  {
     text-align: center;
-    color: rgb(103, 117, 132);
-    margin-bottom:20px;
+    color: white;
+    
+    background: rgb(34, 43, 53, .95);
+    padding: 25px 0 25px 0;
+
 }

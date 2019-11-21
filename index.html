@@ -25,32 +25,32 @@
                     <legend>Contact Information</legend>
 
                     <div>
-                        <label for="full-name">Full Name</label><br>
-                        <input type="text" id="full-name" name="full-name" placeholder="Required">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Required" required>
                     </div>
 
                     <div>
-                        <label for="email">Email Adress</label><br>
-                        <input type="email" id="email" name="email" placeholder="Required">
+                        <label for="email">Email Adress</label>
+                        <input type="email" id="email" name="email" placeholder="Required" required>
                     </div>
 
                     <div>
-                        <label for="phone">Phone number</label><br>
-                        <input type="tel" id="phone" name="phone-number">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone-number" placeholder="000 000 000">
                     </div>
 
                     <div>
-                        <label for="street">Street Address</label><br>
-                        <input type="text" id="street" name="street">
+                        <label for="street">Street Address</label>
+                        <input type="text" id="street" name="street" placeholder="example street">
                     </div>
 
                     <div>
-                        <label for="city">City</label><br>
-                        <input type="text" id="city" name="city">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="example city">
                     </div>
 
                     <div>
-                        <label for="state">State</label><br>
+                        <label for="state">State</label>
                         <select id="state" name="state">
                             <option value="">Choose a state</option>
                             <option value="alabama">Alabama</option>
@@ -67,8 +67,8 @@
                     </div>
 
                     <div>
-                        <label for="zip">Zip Code</label><br>
-                        <input type="text" id="zip" name="zip">
+                        <label for="zip">Zip Code</label>
+                        <input type="text" id="zip" name="zip" placeholder="00111">
                     </div>
                 </fieldset>
 
@@ -97,15 +97,13 @@
                     <div>
                         <label for="message" id="message-label">Other topics you'd like to hear about</label>
                         <br>
-                        <textarea id="message" name="message"> </textarea>
+                        <textarea placeholder="You can type your message here" id="message" name="message"> </textarea>
                     </div>
 
                 </fieldset>
             
-                <button class="signup"
-                    type="submit">
-                Sign Up
-                </button>
+                <button class="signup" type="submit">Sign Up</button>
+                
             </form>
 
         </main>
