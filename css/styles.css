@@ -7,6 +7,7 @@ body   {
     margin-left: auto;
     margin-right: auto;
     padding:0px;
+    font-family: 'IBM Plex Serif', serif;
     
 }
 
@@ -40,7 +41,6 @@ h1  {
     text-align: center;
     max-width: 100%;
     display: block;
-    
     color: white;
     margin-top: auto;
     width: 100%;
@@ -48,6 +48,7 @@ h1  {
     height: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
+    
    
 }
 
@@ -92,15 +93,23 @@ form    {
 
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     text-align: right;
+    font-size: 0.9em;
+    padding-right: 5px;
 }
   input::-moz-placeholder { /* Firefox 19+ */
     text-align: right;
+    font-size: 0.9em;
+    padding-right: 5px;
 }
   input:-ms-input-placeholder { /* IE 10+ */
     text-align: right;
+    font-size: 0.9em;
+    padding-right: 5px;
 }
   input:-moz-placeholder { /* Firefox 18- */
     text-align: right;
+    font-size: 0.9em;
+    padding-right: 5px;
 }
 
 /* FOCUS AND TRANSITIONS */
@@ -211,3 +220,8 @@ footer  {
     padding: 25px 0 25px 0;
 
 }
+
+
+@media screen and (min-width: 768px )   {}
+
+@media screen and (min-width: 1024px )   {}
