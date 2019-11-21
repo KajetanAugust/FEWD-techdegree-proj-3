@@ -103,7 +103,30 @@ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     text-align: right;
 }
 
+/* FOCUS AND TRANSITIONS */
 
+input:focus {
+    border:1px rgb(34, 43, 53, .95) solid ;
+    background-color: rgba(255, 244, 148, 0.507);
+    -webkit-transition: background-color 3s ease-out;
+    -moz-transition: background-color 3s ease-out;
+    -o-transition: background-color 3s ease-out;
+    transition: background-color 3s ease-out;
+}
+
+select:focus {
+    border:1px rgb(34, 43, 53, .95) solid ;
+    
+}
+
+textarea:focus {
+    border:1px rgb(34, 43, 53, .95) solid ;
+    background-color: rgba(255, 244, 148, 0.63);
+    -webkit-transition: background-color 3s ease-out;
+    -moz-transition: background-color 3s ease-out;
+    -o-transition: background-color 3s ease-out;
+    transition: background-color 3s ease-out;
+}
 
 
 select  {
@@ -116,7 +139,6 @@ select  {
     padding-left: 10px;
     color: rgb(152, 157, 162);
     margin:10px auto 15px auto;
-
 }
 
 
