@@ -92,16 +92,18 @@ form    {
 
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     text-align: right;
-  }
+}
   input::-moz-placeholder { /* Firefox 19+ */
     text-align: right;
-  }
+}
   input:-ms-input-placeholder { /* IE 10+ */
     text-align: right;
-  }
+}
   input:-moz-placeholder { /* Firefox 18- */
     text-align: right;
-  }
+}
+
+
 
 
 select  {
