@@ -33,9 +33,10 @@ h1  {
     padding-bottom: 25px;
 }
 
+
 .subheader  {
     margin-top: 5px;
-    border-bottom: black solid 4px;
+    border-bottom: rgb(135,41,72, 0.7) solid 4px;
     margin-bottom: 3px;
     max-width: 90%;
     margin-left: auto;
@@ -56,7 +57,7 @@ h1  {
 /* FORM */
 
 form    {
-    border-top: black solid 2px;
+    border-top: rgb(135,41,72, 0.7) solid 2px;
     padding-top: 10px;
     max-width:90%;
     margin-left: auto;
@@ -78,7 +79,7 @@ legend  {
 
 .fieldset1  {
     border-top:none;
-    border-bottom:2px black solid;
+    border-bottom:2px rgb(135,41,72, 0.7) solid;
     border-left: none;
     border-right:none;
     margin-top:10px;
