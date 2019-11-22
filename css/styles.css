@@ -241,7 +241,6 @@ footer  {
 
     .fieldset1  {
         display: flex;
-        display: box;
         flex-direction: column;
         justify-content:center;
     }
@@ -266,7 +265,6 @@ footer  {
 
     .fieldset1 div  {
         display: flex;
-        display: box;
         justify-content: space-around;
     }
 
